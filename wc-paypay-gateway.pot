@@ -1,0 +1,211 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Payment Gateway PayPay for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-30 16:58+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: wc-paypay-gateway.php:31
+#, php-format
+msgid "PayPay requires WooCommerce to be installed and active. You can download %s here."
+msgstr ""
+
+#: wc-paypay-gateway.php:35 wc-paypay-gateway.php:169
+msgid "In order to make the mode Real, you have to purchase the authentication key at the following site."
+msgstr ""
+
+#: wc-paypay-gateway.php:59 wc-paypay-gateway.php:101
+msgid "PayPay"
+msgstr ""
+
+#: wc-paypay-gateway.php:60
+msgid "PayPay is barcode based payment services in Japan."
+msgstr ""
+
+#: wc-paypay-gateway.php:91
+msgid "Enable/Disable"
+msgstr ""
+
+#: wc-paypay-gateway.php:92
+msgid "Enable PayPay"
+msgstr ""
+
+#: wc-paypay-gateway.php:98
+msgid "Title"
+msgstr ""
+
+#: wc-paypay-gateway.php:100
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: wc-paypay-gateway.php:105
+msgid "Description"
+msgstr ""
+
+#: wc-paypay-gateway.php:107
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: wc-paypay-gateway.php:108
+msgid "Pay via PayPay"
+msgstr ""
+
+#: wc-paypay-gateway.php:112
+msgid "API Key"
+msgstr ""
+
+#: wc-paypay-gateway.php:117
+msgid "Secret Key"
+msgstr ""
+
+#: wc-paypay-gateway.php:122
+msgid "Merchant ID"
+msgstr ""
+
+#: wc-paypay-gateway.php:127
+msgid "Mode"
+msgstr ""
+
+#: wc-paypay-gateway.php:131
+msgid "Real"
+msgstr ""
+
+#: wc-paypay-gateway.php:132
+msgid "Sandbox"
+msgstr ""
+
+#: wc-paypay-gateway.php:136
+msgid "Authorization"
+msgstr ""
+
+#: wc-paypay-gateway.php:138
+msgid "When order status changes to completed, PayPay charge authorized will be captured automatically."
+msgstr ""
+
+#: wc-paypay-gateway.php:142
+msgid "Capture"
+msgstr ""
+
+#: wc-paypay-gateway.php:143
+msgid "Authorize"
+msgstr ""
+
+#: wc-paypay-gateway.php:147
+msgid "Status"
+msgstr ""
+
+#: wc-paypay-gateway.php:149
+msgid "This option is available only in case that Authorization sets to Capture. Authorize moves to On-hold status."
+msgstr ""
+
+#: wc-paypay-gateway.php:153
+msgid "Processing"
+msgstr ""
+
+#: wc-paypay-gateway.php:154
+msgid "Completed"
+msgstr ""
+
+#: wc-paypay-gateway.php:158
+msgid "Logging"
+msgstr ""
+
+#: wc-paypay-gateway.php:159
+msgid "Log debug messages"
+msgstr ""
+
+#: wc-paypay-gateway.php:161
+msgid "Save debug messages to the WooCommerce System Status log."
+msgstr ""
+
+#: wc-paypay-gateway.php:166
+msgid "Authentication Key"
+msgstr ""
+
+#: wc-paypay-gateway.php:195
+msgid "Because Authentication Key is not valid, you can not set Real as the mode."
+msgstr ""
+
+#: wc-paypay-gateway.php:273
+#, php-format
+msgid "PayPay payment failed: %s"
+msgstr ""
+
+#: wc-paypay-gateway.php:276 wc-paypay-gateway.php:449
+#, php-format
+msgid "PayPay charge completed (Payment ID: %s)"
+msgstr ""
+
+#: wc-paypay-gateway.php:278 wc-paypay-gateway.php:443
+#, php-format
+msgid "PayPay charge authorized (Payment ID: %s)"
+msgstr ""
+
+#: wc-paypay-gateway.php:280
+msgid "PayPay charge timed out"
+msgstr ""
+
+#: wc-paypay-gateway.php:316
+msgid "Charge completed."
+msgstr ""
+
+#: wc-paypay-gateway.php:321
+#, php-format
+msgid "Unable to capture charge: %s"
+msgstr ""
+
+#: wc-paypay-gateway.php:323
+#, php-format
+msgid "PayPay charge captured (Payment ID: %s)"
+msgstr ""
+
+#: wc-paypay-gateway.php:345
+msgid "Authorization reverted."
+msgstr ""
+
+#: wc-paypay-gateway.php:350
+#, php-format
+msgid "Unable to revert authorization: %s"
+msgstr ""
+
+#: wc-paypay-gateway.php:352
+#, php-format
+msgid "PayPay authorization reverted (Payment ID: %s)"
+msgstr ""
+
+#: wc-paypay-gateway.php:373
+#, php-format
+msgid "Unable to refund charge: %s"
+msgstr ""
+
+#: wc-paypay-gateway.php:375 wc-paypay-gateway.php:409
+#, php-format
+msgid "PayPay charge refunded (Payment ID: %s)"
+msgstr ""
+
+#: wc-paypay-gateway.php:454
+#, php-format
+msgid "PayPay charge canceled (Payment ID: %s)"
+msgstr ""
+
+#: wc-paypay-gateway.php:460
+#, php-format
+msgid "PayPay charge expired (Payment ID: %s)"
+msgstr ""
+
+#: wc-paypay-gateway.php:465
+#, php-format
+msgid "PayPay charge failed (Payment ID: %s)"
+msgstr ""
